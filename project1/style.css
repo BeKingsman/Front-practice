@@ -35,6 +35,8 @@ header nav #logo{
     text-align: center;
     font-size: 30px;
     color: white;
+    font-weight: 500;
+    transform: translateY(10%);
 }
 
 header nav #nav-ul{
@@ -125,7 +127,7 @@ nav a{
 body .sidebar{
     position: fixed;
     width: 20%;
-    height: 95%;
+    height: 90%;
     background-color:white;
     top: 75px;
     left: 0.5%;
@@ -213,6 +215,7 @@ body .sidebar{
     /* border: 1px solid red; */
     height: 25px;
     font-size: 20px;
+    /* margin: 0px 3px; */
     /* width: 268.6px; */
 }
 .main-body .card .info .mrp{
@@ -220,6 +223,8 @@ body .sidebar{
     /* border: 1px solid red; */
     height: 25px;
     font-size: 15px;
+    text-decoration: line-through;
+    margin: 5px;
     /* width: 268.6px; */
 }
 .main-body .card .info .percent{
